@@ -7,7 +7,7 @@ untuk keberkahanNya maka saya tidak melakukan
 kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Deskripsi Umum Program
-Program ini bisa menampung job list sebagai "To Do List" untuk menyimpan daftar perkerjaan yang akan dilakukan ataupun yang sudah dilakukan lengkap dengan tanggal, gambar, durasi, dan status keterlaksanaan
+Program ini bisa menampung job list sebagai "To Do List" untuk menyimpan daftar perkerjaan yang akan dilakukan ataupun yang sudah dilakukan lengkap dengan tanggal, gambar, durasi, dan status keterlaksanaan, untuk dapat masuk ke menu utama user diharuskan untuk login terlebih dahulu
 
 ![Menu Utama Program](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185419.png)
 
@@ -25,7 +25,7 @@ Hubungan tujuh kelas di atas dijelaskan pada gambar berikut:
 ![Desain Kelas](https://github.com/mnyasin26/TP2DPBO2023/blob/main/TP2DPBO2023_Design.png)
 
 ## Penjelasan Kelas
-1. `User`: Merupakan kelas yang digunakan untuk mendefiniskan User bseserta propertinya, seperti usename dan password untuk keperluan login
+1. `User`: Merupakan kelas yang digunakan untuk mendefiniskan User berserta propertinya, seperti usename dan password untuk keperluan login
 2. `Job`: Merupakan kelas yang digunakan untuk model data table Job, mendefinisikan satu buah job
 3. `DBConnection`: DBConnection berfungsi menjadi penghubung program dengan database
 4. `Laptop`: Laptop merupakan objek yang biasa digunakan bagi Manusia untuk melakukan aktivitas pekerjaan khususnya Mahasiswa dan Dosen, kelas ini diadakan karena hal tersebut
