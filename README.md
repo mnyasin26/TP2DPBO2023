@@ -6,6 +6,9 @@ mata kuliah Desain Pemrograman Berorientasi Objek
 untuk keberkahanNya maka saya tidak melakukan
 kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+## Deskripsi Umum Program
+Program ini bisa menampung job list sebagai "To Do List" untuk menyimpan daftar perkerjaan yang akan dilakukan ataupun yang sudah dilakukan lengkap dengan tanggal, gambar, durasi, dan status keterlaksanaan
+
 ## Desain Program
 - User
 - Job
@@ -37,11 +40,30 @@ Merupakan kelas yang merepresentasikan job (penampil)
 8. JobForm
 Merupakan kelas view yang menghandle input data
 
-## Alur Program
-1. Instansiasi kelas Laptop, PengurusBEM, PengurusDPM, AsistenDosen, Mahasiswa, dan Dosen dengan parameter berupa data dummy
-2. Hasil instansiasi, beberapa diset memiliki laptop serta semua intansiasi dipanggil salah satu methodnya untuk menunjukkan keberadaannya
-3. Instansiasi kelas table lalu isi data laptop untuk memperlihatkan list of object dalam bentuk tabel
-4. Tampilkan data dengan memanggil method displayData pada objek table yang telah diinstansiasi
+## Desain Database
+![Desain Database](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Desain%20Database.png)
 
-## Dokumentasi Program Saat Dijalankan
-![Dokumentasi Program Python](https://github.com/mnyasin26/TP1DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-03-19%20223200.png)
+## Disclaimer
+- Program untuk penyimpanan image hanya bisa pada file JAR
+- Program yang dijalankan via IDE tak akan tampil gambar
+
+## Alur Program
+1. Pada saat program dibuka, maka akan tampil halaman login
+
+2. Isi username dan password
+-> Username: mnyasin26
+-> Password: 12345678
+
+3. Ketika tombol login dipencet, program akan mengecek data usernama dan password apakah sama dengan data yang ada di database
+Kalau match:
+
+Kalau not-match:
+
+4. Program akan langsung menampilkan job list
+
+5. pada setiap job yang ada user dapat mengubah, delete, atau mengubah status dari belum dikerjakan menjadi dikerjakan menggunakan tombol done
+
+6. User dapat tambah job dengan menekan tombol "Tambah Data"
+
+7. User dapat kembali ke halaman sebelumnya dengan menekan tombol "back"
+
