@@ -25,36 +25,14 @@ Hubungan tujuh kelas di atas dijelaskan pada gambar berikut:
 ![Desain Kelas](https://github.com/mnyasin26/TP2DPBO2023/blob/main/TP2DPBO2023_Design.png)
 
 ## Penjelasan Kelas
-1. User:
-
-Merupakan kelas yang digunakan untuk mendefiniskan User bseserta propertinya, seperti usename dan password untuk keperluan login
-2. Job:
-
-Merupakan kelas yang digunakan untuk model data table Job, mendefinisikan satu buah job
-
-3. DBConnection:
-
-DBConnection berfungsi menjadi penghubung program dengan database
-
-4. Laptop:
-
-Laptop merupakan objek yang biasa digunakan bagi Manusia untuk melakukan aktivitas pekerjaan khususnya Mahasiswa dan Dosen, kelas ini diadakan karena hal tersebut
-
-5. LoginPage:
-
-Merupakan kelas view yang menghandle tampilan Login dan juga sebagai entry ke tampilan JobList
-
-6. JobList:
-
-Merupakan kelas view yang menampilkan list card yang berisikan data dari table job, merupakan menu utama dari program
-
-7. Card:
-
-Merupakan kelas yang merepresentasikan job (penampil)
-
-8. JobForm
-
-Merupakan kelas view yang menghandle input data
+1. User: Merupakan kelas yang digunakan untuk mendefiniskan User bseserta propertinya, seperti usename dan password untuk keperluan login
+2. Job: Merupakan kelas yang digunakan untuk model data table Job, mendefinisikan satu buah job
+3. DBConnection: DBConnection berfungsi menjadi penghubung program dengan database
+4. Laptop: Laptop merupakan objek yang biasa digunakan bagi Manusia untuk melakukan aktivitas pekerjaan khususnya Mahasiswa dan Dosen, kelas ini diadakan karena hal tersebut
+5. LoginPage: Merupakan kelas view yang menghandle tampilan Login dan juga sebagai entry ke tampilan JobList
+6. JobList: Merupakan kelas view yang menampilkan list card yang berisikan data dari table job, merupakan menu utama dari program
+7. Card: Merupakan kelas yang merepresentasikan job (penampil)
+8. JobForm: Merupakan kelas view yang menghandle input data
 
 ## Desain Database
 ![Desain Database](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Desain%20Database.png)
