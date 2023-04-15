@@ -9,6 +9,8 @@ kecurangan seperti yang telah dispesifikasikan. Aamiin.
 ## Deskripsi Umum Program
 Program ini bisa menampung job list sebagai "To Do List" untuk menyimpan daftar perkerjaan yang akan dilakukan ataupun yang sudah dilakukan lengkap dengan tanggal, gambar, durasi, dan status keterlaksanaan
 
+![Menu Utama Program](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185419.png)
+
 ## Desain Program
 - User
 - Job
@@ -49,21 +51,23 @@ Merupakan kelas view yang menghandle input data
 
 ## Alur Program
 1. Pada saat program dibuka, maka akan tampil halaman login
+![Halaman Login](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185356.png)
 
 2. Isi username dan password
 -> Username: mnyasin26
 -> Password: 12345678
+![Halaman Login Terisi](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185407.png)
 
 3. Ketika tombol login dipencet, program akan mengecek data usernama dan password apakah sama dengan data yang ada di database
 Kalau match:
+![Login Berhasil](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185412.png)
 
-Kalau not-match:
-
-4. Program akan langsung menampilkan job list
-
-5. pada setiap job yang ada user dapat mengubah, delete, atau mengubah status dari belum dikerjakan menjadi dikerjakan menggunakan tombol done
+4. Program akan langsung menampilkan job list, pada setiap job yang ada user dapat mengubah, delete, atau mengubah status dari belum dikerjakan menjadi dikerjakan menggunakan tombol done
+![Menu Utama](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185419.png)
 
 6. User dapat tambah job dengan menekan tombol "Tambah Data"
+![Tambah Data](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185434.png)
 
 7. User dapat kembali ke halaman sebelumnya dengan menekan tombol "back"
+![back](https://github.com/mnyasin26/TP2DPBO2023/blob/main/Screenshot/Cuplikan%20layar%202023-04-12%20185534.png)
 
